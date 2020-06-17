@@ -1,0 +1,4 @@
+Links = //a[@data-pb-field="headlines.basic"]/@href
+Title = //div[@class="row"]/header/h1/text()
+summary = //div[@class="row"]/header/span[@class="subheadline"]/text()
+Body = //div[@id="article-content"]/div[@class="row pb-content-type-text"]//text()
